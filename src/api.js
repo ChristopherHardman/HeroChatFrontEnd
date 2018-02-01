@@ -1,4 +1,4 @@
-const target = 'https://herochatbackend.herokuapp.com/';
+const target = 'http://herochatbackend.herokuapp.com/';
 
 const api = {
 
