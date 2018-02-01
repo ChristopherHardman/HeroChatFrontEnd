@@ -1,0 +1,5 @@
+#ConversationsHolder {
+  width: 95%;
+  height: 80%;
+  overflow-y: auto;
+}

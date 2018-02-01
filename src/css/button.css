@@ -1,0 +1,10 @@
+.appButton {
+  border: 2px solid #283e4a;
+  border-radius: 5px;
+  color: #283e4a;
+}
+
+.appButton:hover {
+  background-color: #283e4a;
+  color: white;
+}
