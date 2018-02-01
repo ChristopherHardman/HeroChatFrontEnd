@@ -13,7 +13,7 @@ class Chats extends Component {
     this.state = {
       newChat: '',
       newMessage: '',
-      chats: [A, B],
+      chats: ['A', 'B'],
       userName: ''
     }
     tempName: ''
