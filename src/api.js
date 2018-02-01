@@ -1,4 +1,4 @@
-const target = 'http://localhost:3001/';
+const target = 'https://herochatbackend.herokuapp.com/';
 
 const api = {
 
