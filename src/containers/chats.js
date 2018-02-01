@@ -13,7 +13,7 @@ class Chats extends Component {
     this.state = {
       newChat: '',
       newMessage: '',
-      chats: ['A', 'B'],
+      chats: [],
       userName: ''
     }
     tempName: ''
@@ -97,7 +97,7 @@ class Chats extends Component {
             <div id="chatsChat">
               <div className="header">Messages</div>
               <Messages
-                data={this.state.chats.filter( c => c._id === this.state.selectedChat)}
+                data={ this.state.chats !== undefined ? this.state.chats.filter( c => c._id === this.state.selectedChat) : ''}
                 userName={this.state.userName}
               />
             </div>
